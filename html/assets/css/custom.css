@@ -1,0 +1,96 @@
+/*
+	File Name: custom.css
+	Version: 1.0
+    Author: Rosidul
+*/
+
+
+/* default fonts */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700');
+
+
+/* ====================================================
+	GENERAL SETTINGS
+======================================================== */
+* {
+	margin: 0;
+	padding: 0;
+	outline: none;
+
+	-o-box-sizing: border-box; /* opera */
+	-ms-box-sizing: border-box; /* IE 9+ */
+	-moz-box-sizing: border-box; /* firefox */
+	-webkit-box-sizing: border-box; /* chrome */
+	box-sizing: border-box; /* global */
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	line-height: 22px;
+	font-weight: 400;
+	background: #fff;
+}
+
+ul, ol, li {
+	list-style-type: none;
+}
+
+p {
+	margin-bottom: 20px;
+}
+
+a,
+a:focus {
+	color: #E53A40;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #E53A40;
+	text-decoration: underline;
+}
+
+img {
+	border: none;
+}
+
+.clear {
+	clear: both;
+}
+
+
+/* ====================================================
+	TYPOGRAPHY
+======================================================== */
+h1, h2, h3, h4 {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 600;
+	margin: 20px auto;
+	line-height: 35px;
+}
+
+h1 {
+	font-size: 36px;
+}
+
+h2 {
+	font-size: 27px;
+}
+
+h3 {
+	font-size: 22px;
+}
+
+h4 {
+	font-size: 18px;
+}
+
+h5 {
+	font-size: 16px;
+}
+
+/*
+	YOUR CSS HERE
+*/
