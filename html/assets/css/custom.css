@@ -91,8 +91,50 @@ h5 {
 	font-size: 16px;
 }
 
+.clearfix {
+	clear: both;
+}
+
 /*
-	YOUR CSS HERE
+	HEADER
 */
 
+/* navigation */
+nav {
+	background-color: #B7DDE8;
+}
 
+nav ul {
+	max-width: 800px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+nav ul li {
+	display: inline-block;
+	vertical-align: top;
+}
+
+nav ul li a {
+	display: block;
+	padding: 10px;
+	font-size: 12px;
+	font-weight: 600;
+	min-width: 110px;
+	text-align: center;
+	color: #3DA8CA;
+	border-right: solid 2px #C7E5ED;
+}
+
+nav ul li:first-child a {
+	border-left: solid 2px #C7E5ED;
+}
+
+nav ul li a:hover,
+nav ul li a:focus {
+	text-decoration: none;
+	color: #0675A0;
+	font-weight: 800;
+	background-color: #C7E5ED;
+	box-shadow: -8px 0px 10px 1px #C7E5ED;
+}
