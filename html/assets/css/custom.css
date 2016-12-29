@@ -98,6 +98,9 @@ h5 {
 /*
 	HEADER
 */
+header{
+	background-image: url("../../assets/images/81925.jpg");
+}
 
 /* navigation */
 nav {
@@ -131,7 +134,8 @@ nav ul li:first-child a {
 }
 
 nav ul li a:hover,
-nav ul li a:focus {
+nav ul li a:focus , 
+nav ul li a.active {
 	text-decoration: none;
 	color: #0675A0;
 	font-weight: 800;
